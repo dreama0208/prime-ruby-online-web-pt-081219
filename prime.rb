@@ -1,5 +1,8 @@
 # Add  code here!
+require 'benchmark'
+
 def prime? (integer)
+  benchmark.bm(7)
   if integer < 2
     return false
   else
